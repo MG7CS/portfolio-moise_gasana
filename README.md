@@ -6,6 +6,8 @@
 
 **Full-stack engineer** — computer science at [Brown University](https://www.brown.edu/) · building products that solve real problems.
 
+**Live site:** [mg7cs.github.io/moise-portfolio](https://mg7cs.github.io/moise-portfolio) · **Source:** [github.com/MG7CS/moise-portfolio](https://github.com/MG7CS/moise-portfolio)
+
 This repository is a static personal site: projects, experience, education, and contact. It is built with [Gatsby](https://www.gatsbyjs.com/) and React, with content in Markdown and assets under `static/` and `content/`.
 
 My personal website adapted from [brittanychiang.com](https://brittanychiang.com) built with [Gatsby](https://www.gatsbyjs.com/) and Gatsby CLI for static output.

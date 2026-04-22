@@ -1,26 +1,27 @@
 {
   "name": "v4",
-  "homepage": "https://MG7CS.github.io/portfolio-moise_gasana",
+  "homepage": "https://mg7cs.github.io/moise-portfolio",
   "description": "Personal Website V4",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MG7CS/portfolio-moise_gasana.git"
+    "url": "https://github.com/MG7CS/moise-portfolio"
   },
   "version": "1.0.0",
-  "author": "Flambeau Iriho <irihoflambeau@gmail.com>",
+  "author": "Moise Gasana",
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "fix-cache": "rm -rf .cache public node_modules/.cache",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages",
     "lint-staged": "lint-staged"
   },
   "lint-staged": {

@@ -37,7 +37,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
     <script
       key="gtag"
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-KBJ3HD59L2"
+      src="https://www.googletagmanager.com/gtag/js?id=G-6D4TQJGJ1L"
     />,
     <script
       key="gtag-init"
@@ -46,7 +46,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-KBJ3HD59L2');
+          gtag('config', 'G-6D4TQJGJ1L');
         `,
       }}
     />,

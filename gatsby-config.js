@@ -1,14 +1,14 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: '',
+  // GitHub Pages project URL: https://<user>.github.io/<pathPrefix>/
+  pathPrefix: '/moise-portfolio',
   siteMetadata: {
     title: 'Moise Gasana',
     description:
       'Moise Gasana is a full-stack engineer and CS senior at Brown University. He builds AI products that solve real problems for real people.',
-    // Set when you know your production URL (needed for sitemap, canonical, OG)
-    siteUrl: 'https://example.com',
-    image: 'og.png',
+    siteUrl: 'https://mg7cs.github.io/moise-portfolio',
+    image: '/og.png',
     twitterUsername: '',
   },
   plugins: [
@@ -152,7 +152,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'G-KBJ3HD59L2',
+        trackingId: 'G-6D4TQJGJ1L',
       },
     },
   ],
