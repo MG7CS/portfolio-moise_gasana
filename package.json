@@ -1,6 +1,11 @@
 {
   "name": "v4",
+  "homepage": "https://MG7CS.github.io/portfolio-moise_gasana",
   "description": "Personal Website V4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MG7CS/portfolio-moise_gasana.git"
+  },
   "version": "1.0.0",
   "author": "Flambeau Iriho <irihoflambeau@gmail.com>",
   "keywords": [
